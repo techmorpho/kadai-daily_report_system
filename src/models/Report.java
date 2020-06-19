@@ -120,11 +120,11 @@ public class Report {
         this.updated_at = updated_at;
     }
 
-    public String getproject_id() {
+    public String getProject_id() {
         return project_id;
     }
 
-    public void project_id(String project_id) {
+    public void setProject_id(String project_id) {
         this.project_id = project_id;
     }
 }
