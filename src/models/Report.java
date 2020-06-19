@@ -61,6 +61,9 @@ public class Report {
     @Column(name = "updated_at", nullable = false)
     private Timestamp updated_at;
 
+    @Column(name = "project_id", nullable = false)
+    private String project_id;
+
     public Integer getId() {
         return id;
     }
@@ -115,5 +118,13 @@ public class Report {
 
     public void setUpdated_at(Timestamp updated_at) {
         this.updated_at = updated_at;
+    }
+
+    public String getproject_id() {
+        return project_id;
+    }
+
+    public void project_id(String project_id) {
+        this.project_id = project_id;
     }
 }
